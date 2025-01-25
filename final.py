@@ -32,6 +32,6 @@ note = ["Имя пользователя:", username,
         "Описание заметки:", content,
         "Статус заметки:", status,
         "Дата создания заметки:", created_date,
-        "Дата истечения заметки:", issue_date, ["Основные темы: " + zagolovok_1, "Персонажи: " + zagolovok_2, "Рекомендации для чтения: " + zagolovok_3]]
+        "Дата истечения заметки:", issue_date, [zametka_knigi]]
 
-print (note)
+        print ("\n".join(map(str,note)))
